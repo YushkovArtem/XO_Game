@@ -1,0 +1,6 @@
+D:\Проекты\XOGame\XOGameCL\bin\Debug\XOGameCL.dll
+D:\Проекты\XOGame\XOGameCL\bin\Debug\XOGameCL.pdb
+D:\Проекты\XOGame\XOGameCL\bin\Debug\System.Data.SQLite.dll
+D:\Проекты\XOGame\XOGameCL\obj\Debug\XOGameCL.csprojResolveAssemblyReference.cache
+D:\Проекты\XOGame\XOGameCL\obj\Debug\XOGameCL.dll
+D:\Проекты\XOGame\XOGameCL\obj\Debug\XOGameCL.pdb

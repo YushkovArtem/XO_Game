@@ -1,0 +1,13 @@
+D:\Проекты\XOGame\XOGame\bin\Debug\XOGame.exe.config
+D:\Проекты\XOGame\XOGame\bin\Debug\XOGame.exe
+D:\Проекты\XOGame\XOGame\bin\Debug\XOGame.pdb
+D:\Проекты\XOGame\XOGame\bin\Debug\XOGameCL.dll
+D:\Проекты\XOGame\XOGame\bin\Debug\System.Data.SQLite.dll
+D:\Проекты\XOGame\XOGame\bin\Debug\XOGameCL.pdb
+D:\Проекты\XOGame\XOGame\obj\Debug\XOGame.csprojResolveAssemblyReference.cache
+D:\Проекты\XOGame\XOGame\obj\Debug\XOGame.MainForm.resources
+D:\Проекты\XOGame\XOGame\obj\Debug\XOGame.Properties.Resources.resources
+D:\Проекты\XOGame\XOGame\obj\Debug\XOGame.ResultForm.resources
+D:\Проекты\XOGame\XOGame\obj\Debug\XOGame.csproj.GenerateResource.Cache
+D:\Проекты\XOGame\XOGame\obj\Debug\XOGame.exe
+D:\Проекты\XOGame\XOGame\obj\Debug\XOGame.pdb

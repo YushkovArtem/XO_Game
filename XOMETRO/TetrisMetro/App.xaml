@@ -1,0 +1,86 @@
+﻿<Application 
+    x:Class="TetrisMetro.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js">
+
+    <!--Ресурсы приложения-->   
+    <Application.Resources>
+        <!--@import "/style/main.css" screen; /* Стиль для вывода результата на монитор */-->
+        <!--@import "/style/palm.css" handheld, print; /* Стиль для печати */-->
+        
+        <!-- цвета формы-->
+        <SolidColorBrush x:Key="MyBrushForeground" Color="#FF8F5128"/>
+        <SolidColorBrush x:Key="MyBrushBackground" Color="#68786e"/>
+        <!--<SolidColorBrush x:Key="MyBrushFontBright" Color="#FF8F5128"/>-->
+        <SolidColorBrush x:Key="MyBrushFontBright" Color="#FFFD0E45"/>
+        <!--....................................................-->
+        
+        <!--красивая кнопка -->
+       
+        <!--....................................................-->
+        
+        <Style TargetType="Grid" x:Key="BackgroundFog">
+            <Setter Property="Background" Value="{StaticResource MyBrushBackground}"/>
+            <Setter Property="Opacity" Value="0.6"/>
+        </Style>
+               
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="{StaticResource MyBrushForeground}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeNormal}"/>
+        </Style>
+        
+        <Style TargetType="TextBlock" x:Key="Title1Style">
+            <Setter Property="Foreground" Value="{StaticResource MyBrushForeground}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeExtraExtraLarge}"/>
+
+            <Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilySemiLight}"/>                                  
+        </Style>
+
+        <Style TargetType="TextBlock" x:Key="BrightTextStyle">
+            <Setter Property="Foreground" Value="{StaticResource MyBrushFontBright}"/>
+        </Style>
+        
+         <Style TargetType="TextBlock" x:Key="NormalStyle">
+            <Setter Property="Foreground" Value="{StaticResource MyBrushForeground}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeNormal}"/>
+
+            <Setter Property="FontFamily" Value="{StaticResource PhoneFontFamilyNormal}"/>                                
+        </Style>
+        
+        <Style TargetType="HyperlinkButton" x:Key="MenuHyperlinkButton">
+            <Setter Property="Foreground" Value="{StaticResource MyBrushForeground}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeNormal}"/>
+            
+            <Setter Property="Background" Value="{StaticResource MyBrushBackground}"/>
+            <Setter Property="Opacity" Value="1"/>
+        </Style>
+        
+        <Style TargetType="Button" x:Key="MenuButton">
+            <Setter Property="Foreground" Value="{StaticResource MyBrushForeground}"/>
+            <Setter Property="FontSize" Value="{StaticResource PhoneFontSizeNormal}"/>
+
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Background" Value="{StaticResource MyBrushBackground}"/>
+            <Setter Property="Opacity" Value="1"/>
+        </Style>
+        <Style TargetType="Button" x:Key="GameButton">            
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Background" Value="{StaticResource MyBrushBackground}"/>
+            <Setter Property="Opacity" Value="1"/>
+            <Setter Property="Width" Value="160"/>
+            <Setter Property="Height" Value="160"/>            
+        </Style>
+        
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <!--Обязательный объект, обрабатывающий события времени жизни приложения-->
+        <shell:PhoneApplicationService 
+            Launching="Application_Launching" Closing="Application_Closing" 
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>

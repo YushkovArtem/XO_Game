@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOGame", "XOGame\XOGame.csproj", "{5AF4159C-E8AB-41F2-889F-2581AD1F1A6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOGamePhone", "XOGamePhone\XOGamePhone.csproj", "{F6D1EE60-00F1-4331-B826-DEFFE2266161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOGameMetro", "XOMETRO\TetrisMetro\XOGameMetro.csproj", "{F9B83783-578B-446F-A653-02C871C17038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XOGameCL", "XOGameCL\XOGameCL.csproj", "{0BA9451E-EE2B-433C-A401-364DB2E38D29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AF4159C-E8AB-41F2-889F-2581AD1F1A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF4159C-E8AB-41F2-889F-2581AD1F1A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF4159C-E8AB-41F2-889F-2581AD1F1A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF4159C-E8AB-41F2-889F-2581AD1F1A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D1EE60-00F1-4331-B826-DEFFE2266161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D1EE60-00F1-4331-B826-DEFFE2266161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D1EE60-00F1-4331-B826-DEFFE2266161}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F6D1EE60-00F1-4331-B826-DEFFE2266161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D1EE60-00F1-4331-B826-DEFFE2266161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D1EE60-00F1-4331-B826-DEFFE2266161}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F9B83783-578B-446F-A653-02C871C17038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B83783-578B-446F-A653-02C871C17038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B83783-578B-446F-A653-02C871C17038}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F9B83783-578B-446F-A653-02C871C17038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B83783-578B-446F-A653-02C871C17038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B83783-578B-446F-A653-02C871C17038}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0BA9451E-EE2B-433C-A401-364DB2E38D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA9451E-EE2B-433C-A401-364DB2E38D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA9451E-EE2B-433C-A401-364DB2E38D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA9451E-EE2B-433C-A401-364DB2E38D29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

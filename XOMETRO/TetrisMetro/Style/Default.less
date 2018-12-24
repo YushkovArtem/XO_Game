@@ -1,0 +1,92 @@
+﻿@Background_value:#68786e;
+@Foreground_value:#FF8F5128;
+.roundbutton {
+  display: inline-block;
+  width: 240px;
+  height: 70px;
+  box-sizing: border-box;
+  margin: 50px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  background: linear-gradient(#89C13E, #599C02);
+  background-color: #6FAD1D;
+  border-radius: 35px;
+  border: 1px solid #579A00;
+  font: bold 30px/70px Arial;
+  box-shadow:
+    inset 0 2px 2px #CCE464,
+    inset 1px 0 3px #B2DC2D,
+    inset -1px 0 3px #B2DC2D,
+    inset 0 -2px 2px #89D301,
+    0 0 3px rgba(0,0,0,0.24);
+  position: relative;
+  text-shadow: 0 1px #45880D;
+}
+.roundbutton:before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background: #D7D7D7;
+  z-index: -1;
+  border-radius: 50px;
+  box-shadow:
+    inset 0 1px 2px #BBB;
+}
+.roundbutton:hover {
+  background: linear-gradient(#97D444, #65AD07);
+  box-shadow:
+    inset 0 1px 0 #E2F498,
+    inset 0 2px 0 #CEEC87,
+    inset 0 3px 0 #C3E67C,
+    inset 0 5px 0 #BAE475,
+    inset 1px 0 3px #B2DC2D,
+    inset -1px 0 3px #B2DC2D,
+    inset 0 -2px 2px #89D301,
+    0 0 3px rgba(0,0,0,0.24);
+  
+}
+.roundbutton:active {
+  background: linear-gradient(#83BB37, #599C02);
+  box-shadow:
+    inset 0 3px 7px #3C7B00;
+  padding: 1px 0 0 1px;
+}
+
+/*Grid*/
+Grid.backgroundfog{    
+    background-color:@Background_value;
+    opacity:0.6;
+}
+
+TextBlock {
+    color: @Foreground_value;
+    font-size:medium;
+}
+
+/*TextBlock*/
+TextBlock.HBNormalStyle{
+    color:@Foreground_value;
+    font-size:medium;
+    background-color:@Background_value;
+    opacity:0.6;
+}
+
+/*TextBlock*/
+TextBlock.Title1Style{
+    font-family:'Segoe WP SemiLight';
+    font-size:xx-large;
+    color:@Foreground_value;
+
+}
+
+/*TextBlock*/
+TextBlock.NormalStyle {
+    font-family:'Times New Roman';
+    font-size:medium;
+    color:@Foreground_value;
+} 
